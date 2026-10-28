@@ -1,0 +1,65 @@
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: yellow;
+    text-align: center;
+}
+
+hr {
+    border-top: 1px solid #555;
+}
+
+h3 {
+    color: orange;
+}
+
+p {
+    background-color: #1c1c1c;
+    color: white;
+
+}
+
+body > div {
+    width: 30%;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+
+figure {
+    background-color: #2b2c2e;
+    margin: 0;
+    padding: 10px 0;
+}
+
+
+
+figcaption {
+    background-color: #080808;
+    color: lime;
+    text-align: center;
+    font-size: 13px;
+    padding: 6px 2px;
+    margin-top: 5px;
+}
+
+body > h3 {
+    margin-top: 5px;
+}
+
+body > p {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+
+body > figure {
+    width: 50%;
+    box-sizing: border-box;
+}
+

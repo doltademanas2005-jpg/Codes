@@ -1,0 +1,53 @@
+body{
+    
+}
+h1{
+    color:#0B1A82;
+    text-align: center;
+}
+#para{
+    text-align: center;
+}
+.midd{
+    text-decoration: underline;
+}
+h2{
+    color:green
+}
+h3{
+    color:green
+}
+
+#dest{
+    background-color: aqua;
+    height:200px;
+    width: 600px;
+    border-radius:12px;
+}
+#id {
+
+}
+.c{
+    text-align: center;
+}
+.mid{
+    text-align: center;
+    color:maroon;
+}
+
+li{
+    color:maroon;
+}
+div > p{
+    color:silver
+}
+a{
+    text-decoration: none;
+}
+
+
+#tip::before{
+    content: "Tip : ";
+    color: green;
+    font-weight: 800;
+}
