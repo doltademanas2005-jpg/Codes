@@ -1,0 +1,62 @@
+/* For colors */
+
+h2{
+    color:red;
+}
+
+h3{
+    color:#00ff00;
+}
+
+h4{
+    color:rgb(0,0,255,0.5);
+}
+h5{
+    color:rgba(255,0,0,0.5);
+}
+h6{
+    color:hsl(120, 100%, 50%);
+}
+
+
+
+/* Now Formatting */
+
+
+.format h2{
+    color:black;
+    font-family:"quicksand", sans-serif;
+}
+.format h3{
+    color:black;
+    Font-size: 20px;
+}
+
+.format h4{
+    color:black;
+    font-style:italic;
+}
+.format h5{
+    color:black;
+    font-weight:bold;
+}
+
+.format h6{
+    color:black;
+    font-weight:400;
+}
+
+.format h6{
+    color:black;
+    text-decoration:underline;
+}
+.format h1{
+    color:Purple;
+    font-family:"quicksand", sans-serif;
+    font-size: 50px;
+    font-style:italic;
+    font-weight:400;
+    text-align:center;
+    text-shadow: 10px 10px 5px red;
+    letter-spacing: 20px;
+}

@@ -1,0 +1,47 @@
+div h1{
+    color: red;
+}
+div p{
+    color: blue;
+}
+
+div+p{
+    color: green;
+} 
+ /* Color will not goes to p beaucse its not direct chiled of div  */
+
+ h1:hover{
+    color: yellow;
+ }
+
+ /* color to list elements */
+ li:first-child{
+    color:red;
+ }
+ li:last-child{
+    color:blue;
+ }
+ li:nth-child(2){
+    color:green;
+ }
+
+
+ /* style to imput variables */
+ input:focus{
+    outline-color:red;
+    background-color:yellow;
+    color:blue;
+
+    /* also we can give like
+    input[type="text"]{
+    color:red;
+    } */
+ }
+
+
+ /* we use after word to add somehting after any element or word */
+ h1::after{
+    content:" after word";
+    color:greenyellow;
+    
+ }
