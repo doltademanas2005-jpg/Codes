@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative Unit</title>
+    <style>
+        .div1 {
+            background-color: red;
+            width: 300px;
+            /* height: 100px; */
+            font-size: 50px;
+        }
+        html{
+            font-size: 10px;
+        }
+
+        .div2 {
+            background-color: blue;
+            width: 300px;
+            /* height: 100px; */
+        }
+        .div3{
+            background-color: green;
+            width: 300px;
+            /* height: 100px; */
+            font-size:500px;
+        }
+        .h1{
+            font-size:50%;
+            margin:0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;">1) em</h1>
+    <div class="div1">
+        <h1>Rutherford</h1> 
+        <!-- it taking rem root element font size as reference and em taking parent element font size as reference -->
+    </div>
+    <hr>
+
+    <h1 style="text-align: center;">2) rem</h1>
+    <div class="div2">
+        <h1>Rutherford</h1>
+    </div>
+    <hr>
+
+    <h1 style="text-align: center;">3) %</h1>
+    <div class="div3">
+        <h1 class="h1">Rutherford</h1>
+    </div>
+</body>
+
+</html>
